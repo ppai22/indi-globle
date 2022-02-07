@@ -3,6 +3,7 @@
     <head>
         <title>Indi-Globle</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             body {
                 background-color: antiquewhite;
@@ -381,13 +382,13 @@
                         </circle>
                         </g>
                     </svg>
+                </div>
+                <div class="col-6 overflow-auto">
                     <div id="input_form">
                         <input type="text" id="input_state" value="">
                         <button class="btn btn-secondary" id="enter_btn" onclick="validate(document.getElementById('input_state').value)">Enter</button>
                         <button class="btn btn-danger" id="give_up_btn" onclick="give_up()">Give up!</button>
                     </div>
-                </div>
-                <div class="col-6">
                     <div id="output">
                     </div>
                     <div id="entered_states">
